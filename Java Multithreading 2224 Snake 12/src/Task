@@ -1,0 +1,14 @@
+
+Snake 11
+
+Now the logic of mouse control.
+Two things will happen to the mouse with us.
+First - the snake eats the mouse.
+Second - a new mouse appears at a random point in the room.
+You must write and implement the createMouse () method in the Room class.
+In this method, we just have to create a new mouse with random coordinates in the room.
+How to get random coordinates?
+You should have known that already. Just in case, I give a hint:
+int x = (int) (Math.random () * width);
+Still need a method - eatMouse (), in case the mouse still someone eats.
+While there will be no complex logic in this method, we just call the createMouse method and that’s it.
